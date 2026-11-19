@@ -1,0 +1,43 @@
+3D HUMAN ANATOMY VISUALIZATION
+Computer Graphics Project Report
+
+1. Introduction
+The 3D Human Anatomy Visualization project is an interactive graphics application
+developed using C++ and OpenGL. It presents a simplified human body, skeleton and
+internal organs in a three-dimensional scene.
+
+2. Objectives
+- To understand 3D object modelling using basic graphics primitives.
+- To display a simplified human skeleton and selected organs.
+- To implement rotation and zooming using keyboard input.
+- To select body regions with the mouse and display descriptions.
+
+3. Software and Hardware Requirements
+Software: C++, OpenGL, GLU, FreeGLUT, MinGW-w64.
+Hardware: A Windows computer with a graphics-capable display.
+
+4. Concepts Used
+- 3D transformations: translation, rotation and scaling.
+- Perspective projection and depth testing.
+- Lighting and material properties.
+- Sphere and cylinder primitives.
+- Mouse picking using the OpenGL selection mechanism.
+- Keyboard and mouse event handling.
+
+5. Working
+The application creates a 3D window and draws a human-shaped model from spheres
+and cylinders. The user can switch between body, skeleton and organ views. Arrow
+keys rotate the model, plus/minus keys change its scale, and a mouse click selects
+a body region. A short description of the selected region appears on screen.
+
+6. Result
+The project demonstrates interactive 3D visualization of major body regions,
+a simplified skeleton and selected organs.
+
+7. Limitations
+The anatomy is stylized and simplified. It is intended for learning computer graphics,
+not for medical training or clinical use.
+
+8. Conclusion
+This project demonstrates how OpenGL can be used to create and interact with 3D
+objects through transformations, lighting, projection and input events.
